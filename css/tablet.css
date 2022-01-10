@@ -1,0 +1,27 @@
+/* tablet.css media="(min-width: 768px)" */
+
+main#blogs section.last-main-post article.main-post {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+main#blogs section.last-main-post article.main-post img {
+  width: 45%;
+}
+
+main#blogs section.blogs-last-post {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+main#blogs section.blogs-last-post h3 {
+  width: 100%;
+}
+
+main#blogs section.blogs-last-post article.main-post {
+  width: 31.33%;
+}

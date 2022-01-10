@@ -1,0 +1,43 @@
+/* laptop.css media="(min-width: 1024px)" */
+
+header .header-icon-social {
+  justify-content: right;
+}
+
+header nav.header-nav {
+  height: 80px;
+}
+
+header nav section.header-nav-menu {
+  gap: 20px;
+}
+
+header nav section.header-nav-menu a {
+  font-size: 2rem;
+}
+
+header nav.header-nav section.header-nav-logo a img {
+  height: 32px;
+}
+
+main#home {
+  height: calc(100% - 120px);
+}
+
+main#home section.hero-container {
+  padding: 0px 100px;
+}
+
+main#home section.hero-container h1 {
+  font-size: 6rem;
+  margin-bottom: 40px;
+}
+
+main#home section button.hero-cta {
+  font-size: 2.5rem;
+}
+
+main#blogs section.last-main-post,
+main#blogs section.blogs-last-post {
+  padding: 30px 100px;
+}

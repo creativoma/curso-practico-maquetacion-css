@@ -1,0 +1,255 @@
+/* main.css media="(min-width: 320px)" */
+
+:root {
+  --primary: #4acfae;
+  --primary-two: #9af3dd;
+  --secondary: #e7eaee;
+  --tertiary: #21262c;
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: monospace;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+/* Header */
+
+header .header-icon-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background: var(--primary);
+  height: 40px;
+  padding: 0px 30px;
+}
+
+header .header-icon-social a {
+  text-decoration: none;
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+header .header-icon-social a img {
+  width: 18px;
+}
+
+header nav.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  height: 50px;
+  padding: 0px 30px;
+}
+
+header nav.header-nav section.header-nav-logo a {
+  display: flex;
+  align-items: center;
+}
+
+header nav.header-nav section.header-nav-logo a img {
+  height: 22px;
+  margin-bottom: -4px;
+}
+
+header nav section.header-nav-menu {
+  display: flex;
+  gap: 10px;
+}
+
+header nav section.header-nav-menu a {
+  color: var(--black);
+  font-size: 1.7rem;
+}
+
+/* Main Home */
+
+main#home {
+  background-image: url(../assets/cover-home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  height: calc(100% - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main#home section.hero-container {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+main#home section.hero-container h1 {
+  color: var(--white);
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px var(--black);
+}
+
+main#home section button.hero-cta {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 0;
+  background: var(--primary);
+  transition: all 50ms ease;
+  cursor: pointer;
+}
+
+main#home section button.hero-cta:active {
+  transform: scale(0.95);
+  background: var(--primary-two);
+}
+
+/* Main Blogs */
+
+main#blogs section.last-main-post {
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary);
+  padding: 30px;
+}
+
+main#blogs section.last-main-post article {
+  margin-bottom: 10px;
+}
+
+main#blogs section.last-main-post h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+main#blogs section article.main-post img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+main#blogs section article div.main-post-data h3 {
+  margin-bottom: 10px;
+}
+
+main#blogs section article div.main-post-data p {
+  margin-bottom: 10px;
+}
+
+main#blogs section article div.main-post-data button {
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 0;
+  background: var(--primary);
+  transition: all 50ms ease;
+  cursor: pointer;
+}
+
+main#blogs section article div.main-post-data button:active {
+  transform: scale(0.95);
+  background: var(--primary-two);
+}
+
+main#blogs section.blogs-last-post {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  padding: 30px 30px 0px 30px;
+}
+
+main#blogs section.blogs-last-post h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+main#blogs section.blogs-last-post article {
+  margin-bottom: 30px;
+}
+
+main#blogs section article.main-post img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+main#blogs section article div.main-post-data h4 {
+  margin-bottom: 10px;
+}
+
+main#blogs section article div.main-post-data p {
+  margin-bottom: 10px;
+}
+
+main#blogs section article div.main-post-data button {
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 0;
+  background: var(--white);
+  border: 2px solid var(--primary);
+  transition: all 50ms ease;
+  cursor: pointer;
+}
+
+main#blogs section article div.main-post-data button:active {
+  transform: scale(0.95);
+  background: var(--primary-two);
+}
+
+/* Footer */
+
+footer section.footer-bar {
+  background: var(--primary);
+  height: 15px;
+}
+
+footer section.footer-data {
+  background: var(--tertiary);
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer section.footer-data p {
+  color: var(--secondary);
+  text-align: center;
+}
