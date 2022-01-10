@@ -149,10 +149,6 @@ main#blogs section.last-main-post {
   padding: 30px;
 }
 
-main#blogs section.last-main-post article {
-  margin-bottom: 10px;
-}
-
 main#blogs section.last-main-post h2 {
   margin-bottom: 10px;
   font-weight: 600;
@@ -180,6 +176,11 @@ main#blogs section article div.main-post-data button {
   background: var(--primary);
   transition: all 50ms ease;
   cursor: pointer;
+}
+
+main#blogs section article div.main-post-data button a {
+  text-decoration: none;
+  color: var(--black);
 }
 
 main#blogs section article div.main-post-data button:active {
