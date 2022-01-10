@@ -41,3 +41,7 @@ main#blogs section.last-main-post,
 main#blogs section.blogs-last-post {
   padding: 30px 100px;
 }
+
+main#post {
+  padding-top: 0px;
+}

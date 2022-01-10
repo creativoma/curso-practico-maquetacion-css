@@ -25,3 +25,21 @@ main#blogs section.blogs-last-post h3 {
 main#blogs section.blogs-last-post article.main-post {
   width: 31.33%;
 }
+
+section.container-share-post {
+  padding: 30px 50px;
+  flex-direction: row;
+  gap: 50px;
+}
+
+section.container-share-post section {
+  align-items: center;
+}
+
+section.container-share-post img {
+  width: 50px;
+}
+
+main#post section.container-post div {
+  padding: 0px 50px;
+}

@@ -233,6 +233,53 @@ main#blogs section article div.main-post-data button:active {
   background: var(--primary-two);
 }
 
+/* Main Post */
+
+main#post {
+  padding: 30px;
+}
+
+main#post section.container-post img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+main#post section.container-post div h4 {
+  color: var(--primary);
+}
+
+main#post section.container-post div h3 {
+  margin-bottom: 15px;
+}
+
+main#post section.container-post div p {
+  margin-bottom: 15px;
+}
+
+section.container-share-post {
+  background: var(--secondary);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+section.container-share-post section {
+  background: var(--secondary);
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+section.container-share-post img {
+  width: 50px;
+}
+
 /* Footer */
 
 footer section.footer-bar {
